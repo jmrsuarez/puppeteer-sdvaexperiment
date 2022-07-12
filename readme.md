@@ -2,9 +2,11 @@
 ******************
 *****************
 
-EXPERIMENTO SOFTWARE DEFINED VIDEO ART
+EXPERIMENTO:
+SOFTWARE DEFINED VIDEO ART-SDVA
 
-SDVA- 
+En test1.js el mas antiguo
+y ya con timing y mejores resultados en srecord.js 
 
 Usamos pupeteer y 
 puppeteer screen recorder
