@@ -11,9 +11,10 @@ const { PuppeteerScreenRecorder } = require('puppeteer-screen-recorder');
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   const recorder = new PuppeteerScreenRecorder(page, screenRecorderOptions);
-  await recorder.start('./simple.mp4'); // supports extension - mp4, avi, webm and mov
+  await recorder.start('./simple2.mp4'); // supports extension - mp4, avi, webm and mov
   await page.goto('https://jmrsuarez.github.io/onepage/clock.html');
 
+  await page.waitForTimeout(8000);
 
   await recorder.stop();
   await browser.close();
